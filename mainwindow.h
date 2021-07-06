@@ -18,6 +18,12 @@ public:
     ~MainWindow();
 
 private:
+    void ReadNum();
+    void DeleteNum();
+    void MoveNum();
+    void SetListView();
+    void ShowErrorWindow(QString str);
+
     Ui::MainWindow *ui;
     QPushButton *ui_addButton;
     QPushButton *ui_deleteButton;
