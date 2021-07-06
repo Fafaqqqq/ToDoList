@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include <QListView>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -18,6 +19,14 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    QPushButton *button;
+    QPushButton *ui_addButton;
+    QPushButton *ui_deleteButton;
+    QPushButton *ui_moveButton;
+    QListView *ui_numbers;
+    QLineEdit *ui_inputNum;
+    QLineEdit *ui_inputIndex;
+    QLineEdit *ui_inputFrom;
+    QLineEdit *ui_inputTo;
+    QList<int> numbers;
 };
 #endif // MAINWINDOW_H

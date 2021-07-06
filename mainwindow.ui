@@ -14,17 +14,105 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QListView" name="Numbers">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>260</y>
-      <width>151</width>
-      <height>61</height>
+      <x>50</x>
+      <y>120</y>
+      <width>181</width>
+      <height>331</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>120</y>
+      <width>171</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>200</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Move">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>280</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="InputNum">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>120</y>
+      <width>113</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NUMBER</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="InputIndex">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>200</y>
+      <width>113</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>INDEX</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="InputFrom">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>280</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FROM</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputTo">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>280</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TO</string>
     </property>
    </widget>
   </widget>
